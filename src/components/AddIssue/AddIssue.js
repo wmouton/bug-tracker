@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const AddIssue = () => {
-    return (
-        <div>
-            <h1>Add Issue</h1>
-        </div>
-    )
-}
+	const [addIssue, setAddIssue] = useState(true);
+	return (
+		<div>
+			<h1>Add Issue</h1>
+		</div>
+	);
+};
 
-export default AddIssue
+export default AddIssue;

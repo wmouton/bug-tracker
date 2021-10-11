@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from "react";
 
 const CurrentIssue = () => {
-    return (
-        <div>
-            <h1>Current Issue</h1>
-        </div>
-    )
-}
+	return (
+		<div className='current-issues'>
+			<h1>Current Issues</h1>
+		</div>
+	);
+};
 
-export default CurrentIssue
+export default CurrentIssue;
