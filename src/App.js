@@ -8,6 +8,10 @@ function App() {
     <div className="App">
       <h1>Bug Tracker</h1>
       {addIssue ? <AddIssue /> : <CurrentIssue />}
+      <div>
+        <button>Current Issues</button>
+        <button>Add Issue</button>
+      </div>
     </div>
   );
 }
