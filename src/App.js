@@ -7,7 +7,9 @@ function App() {
 	return (
 		<div className='App'>
 			<h1>Bug Tracker</h1>
-			{addIssue ? <AddIssue /> : <CurrentIssue />}
+			<div className='grey-card-container'>
+				{addIssue ? <AddIssue /> : <CurrentIssue />}
+			</div>
 			<div>
 				<button>Current Issues</button>
 				<button>Add Issue</button>
