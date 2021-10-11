@@ -1,12 +1,16 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 body {
-  background: rgb(134, 219, 191);
+	background: rgb(134, 219, 191);
 }
 
 h1 {
-  font-size: 55px;
-  color: rgb(32, 138, 219);
+	font-size: 55px;
+	color: rgb(32, 138, 219);
+}
+
+.grey-card-container {
+	background: #f6f6f6;
 }

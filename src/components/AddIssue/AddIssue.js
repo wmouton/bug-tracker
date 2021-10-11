@@ -31,7 +31,7 @@ const AddIssue = () => {
 						<option value='Critical'>Critical</option>
 					</select>
 				</label>
-				<button type='submit'>Add Issue</button>
+				{/* <button type='submit'>Add Issue</button> */}
 			</form>
 		</>
 	);
