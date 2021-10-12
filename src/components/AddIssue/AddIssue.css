@@ -4,5 +4,8 @@ label select {
 	display: block;
 }
 
-label input {
+label input,
+label select {
+	width: 100%;
+	padding: 15px;
 }
