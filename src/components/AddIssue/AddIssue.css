@@ -3,6 +3,7 @@ label input,
 label select {
 	display: block;
 	text-align: left;
+    color: #717171
 }
 
 label input,
