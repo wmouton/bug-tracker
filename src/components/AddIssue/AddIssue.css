@@ -19,5 +19,7 @@ form label {
 
 form button {
 	border-radius: 5px;
-    background: rgb(80, 194, 108);
+	background: rgb(80, 194, 108);
+	color: #fff;
+	border: none;
 }
