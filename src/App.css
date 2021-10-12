@@ -38,3 +38,8 @@ button {
 	font-size: 15px;
 	margin-top: 16px;
 }
+
+.view-selection-div {
+	display: flex;
+	justify-content: space-between;
+}
