@@ -11,6 +11,10 @@ h1 {
 	color: rgb(30, 224, 95);
 }
 
+button {
+	cursor: pointer;
+}
+
 .grey-card-container {
 	background: #c1ece9;
 	margin: auto;
@@ -20,4 +24,17 @@ h1 {
 	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 	-moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+.view-button {
+	border-radius: 5px;
+	background: rgb(80, 194, 108);
+	color: #fff;
+	border: none;
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+	padding: 15px 30px;
+	font-size: 15px;
+	margin-top: 16px;
 }

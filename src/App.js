@@ -10,9 +10,9 @@ function App() {
 			<div className='grey-card-container'>
 				{addIssue ? <AddIssue /> : <CurrentIssue />}
 			</div>
-			<div>
-				<button>Current Issues</button>
-				<button>Add Issue</button>
+			<div className='view-selection-div'>
+				<button className='view-button'>Current Issues</button>{" "}
+				<button className='view-button active-button'>Add Issue</button>
 			</div>
 		</div>
 	);
