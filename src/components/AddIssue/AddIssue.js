@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./AddIssue.css";
 
 const AddIssue = () => {
 	const [addIssue, setAddIssue] = useState(true);

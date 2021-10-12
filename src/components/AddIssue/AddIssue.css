@@ -1,0 +1,8 @@
+form label,
+label input,
+label select {
+	display: block;
+}
+
+label input {
+}
