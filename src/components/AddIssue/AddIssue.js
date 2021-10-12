@@ -7,7 +7,7 @@ const AddIssue = () => {
 		<>
 			<form action=''>
 				<label>
-					Description : <input type='text' />{" "}
+					Description : <input type='text' placeholder='Issue Description...'/>{" "}
 				</label>
 				<label>
 					Assign To :{" "}
