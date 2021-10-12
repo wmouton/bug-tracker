@@ -5,7 +5,6 @@ const AddIssue = () => {
 	const [addIssue, setAddIssue] = useState(true);
 	return (
 		<>
-			<h1>Add Issue</h1>
 			<form action=''>
 				<label>
 					Description : <input type='text' />{" "}
