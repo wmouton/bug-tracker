@@ -3,11 +3,15 @@ label input,
 label select {
 	display: block;
 	text-align: left;
-    color: #717171
+	color: #717171;
 }
 
 label input,
 label select {
 	width: 100%;
 	padding: 15px;
+}
+
+form label {
+	margin-top: 25px;
 }
