@@ -2,6 +2,7 @@ form label,
 label input,
 label select {
 	display: block;
+	text-align: left;
 }
 
 label input,
