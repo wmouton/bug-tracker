@@ -8,10 +8,10 @@ const AddIssue = () => {
 			<h1>Add Issue</h1>
 			<form action=''>
 				<label>
-					Description: <input type='text' />{" "}
+					Description : <input type='text' />{" "}
 				</label>
 				<label>
-					Assign To:{" "}
+					Assign To :{" "}
 					<select name='wmDev' id='wmDev'>
 						<option value='Richard'>Richard</option>
 						<option value='Gilfoyle'>Gilfoyle</option>
@@ -24,7 +24,7 @@ const AddIssue = () => {
 					</select>{" "}
 				</label>
 				<label>
-					Priority Level:{" "}
+					Priority :{" "}
 					<select name='priority' id='priority'>
 						<option value='Low'>Low</option>
 						<option value='Medium'>Medium</option>

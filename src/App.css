@@ -3,16 +3,16 @@
 }
 
 body {
-	background: rgb(134, 219, 191);
+	background: rgb(52, 138, 88);
 }
 
 h1 {
 	font-size: 55px;
-	color: rgb(32, 138, 219);
+	color: rgb(30, 224, 95);
 }
 
 .grey-card-container {
-	background: #f6f6f6;
+	background: #c1ece9;
 	margin: auto;
 	max-width: 725;
 	padding: 40px 50px 30px;
