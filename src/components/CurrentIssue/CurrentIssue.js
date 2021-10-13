@@ -5,7 +5,7 @@ import HorizontalLine from "../HorizontalLine/HorizontalLine";
 const CurrentIssue = () => {
 	return (
 		<>
-			<div className='current-issues'>
+			<div className='current-issues cissues'>
 				<div className='indv-issue'>
 					<p className='close-issue'>
 						<span>Close Issue</span>

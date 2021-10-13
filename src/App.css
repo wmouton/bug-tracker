@@ -19,9 +19,7 @@ button {
 	background: #c1ece9;
 	margin-left: 10px;
 	margin-right: 10px;
-	max-height: 400px;
 	max-width: 725;
-	overflow: hidden;
 	padding: 40px 50px 30px;
 	border-radius: 5px;
 	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
