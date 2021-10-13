@@ -2,11 +2,15 @@ import React, { useState } from "react";
 import "./App.css";
 import AddIssue from "./components/AddIssue/AddIssue";
 import CurrentIssue from "./components/CurrentIssue/CurrentIssue";
+import logo from "./logo/logo.png";
+
 function App() {
 	const [addIssue, setAddIssue] = useState(false);
 	return (
 		<div className='App'>
-			<h1>Bug Tracker</h1>
+			<div>
+				<img src={logo} alt='logo' />
+			</div>
 			<div className='grey-card-container'>
 				{addIssue ? <AddIssue /> : <CurrentIssue />}
 			</div>

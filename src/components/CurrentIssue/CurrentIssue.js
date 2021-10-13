@@ -12,7 +12,7 @@ const CurrentIssue = () => {
 					</p>
 
 					<p>
-						Assigned <span>Username</span>
+						Assigned <span>Gilfoyle</span>
 					</p>
 					<p>
 						Priority <span>High</span>
@@ -40,7 +40,7 @@ const CurrentIssue = () => {
 					</p>
 
 					<p>
-						Assigned <span>Username</span>
+						Assigned <span>Richard</span>
 					</p>
 					<p>
 						Priority <span>High</span>
@@ -68,10 +68,38 @@ const CurrentIssue = () => {
 					</p>
 
 					<p>
-						Assigned <span>Username</span>
+						Assigned <span>Dinesh</span>
 					</p>
 					<p>
-						Priority <span>High</span>
+						Priority <span>Medium</span>
+					</p>
+					<p className='description-text'>Description</p>
+					<p>
+						<span>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Minima, in voluptates porro, eligendi sint
+							labore aspernatur consequuntur totam hic, laborum
+							deserunt sapiente deleniti explicabo placeat modi.
+							Expedita obcaecati odit animi.
+						</span>
+					</p>
+				</div>
+				<div>
+					<HorizontalLine color='#cecaca' />
+				</div>
+			</div>
+
+			<div className='current-issues'>
+				<div className='indv-issue'>
+					<p className='close-issue'>
+						<span>Close Issue</span>
+					</p>
+
+					<p>
+						Assigned <span>Jared</span>
+					</p>
+					<p>
+						Priority <span>low</span>
 					</p>
 					<p className='description-text'>Description</p>
 					<p>
