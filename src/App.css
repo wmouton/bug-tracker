@@ -39,6 +39,11 @@ button {
 	margin-top: 16px;
 }
 
+.active-button {
+	background: rgb(35, 177, 158);
+	color: #fff;
+}
+
 .view-selection-div {
 	display: flex;
 	justify-content: space-between;
