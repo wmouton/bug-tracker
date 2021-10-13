@@ -14,5 +14,16 @@
 }
 
 .description-text {
+	color: #ada5a5;
+}
+
+.current-issues .indv-issue {
+	position: relative;
+}
+
+.current-issues .close-issue {
+	position: absolute;
+    top: 0;
+    right: 0;
     color: #ada5a5;
 }

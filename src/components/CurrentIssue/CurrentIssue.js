@@ -4,7 +4,8 @@ import "./CurrentIssue.css";
 const CurrentIssue = () => {
 	return (
 		<div className='current-issues'>
-			<div>
+			<div className='indv-issue'>
+				<p className='close-issue'>Close Issue</p>
 				<p>
 					Assigned <span>Username</span>
 				</p>

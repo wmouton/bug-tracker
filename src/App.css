@@ -17,7 +17,9 @@ button {
 
 .grey-card-container {
 	background: #c1ece9;
-	margin: auto;
+	/* margin: auto; */
+	margin-left: 10px;
+	margin-right: 10px;
 	max-width: 725;
 	padding: 40px 50px 30px;
 	border-radius: 5px;
@@ -49,6 +51,6 @@ button {
 	justify-content: space-between;
 	margin: auto;
 	margin-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
