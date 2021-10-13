@@ -14,6 +14,10 @@ label select {
 	border: rgba(224, 220, 220, 0.775);
 }
 
+form {
+	text-align: left;
+}
+
 form label {
 	margin-top: 20px;
 }
