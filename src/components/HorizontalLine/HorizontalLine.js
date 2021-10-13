@@ -8,7 +8,8 @@ const HorizontalLine = ({ color }) => {
 					color,
 					backgroundColor: color,
 					height: 1,
-                    marginTop: '20px'
+                    marginTop: '20px',
+                    marginBottom: '8px'
 				}}
 			/>
 		</div>
