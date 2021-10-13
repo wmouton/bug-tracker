@@ -1,11 +1,12 @@
 .current-issues p {
 	text-align: left;
 	color: #666161;
+	margin: 5px;
 }
 
 .current-issues p span {
 	display: inline-block;
-	margin-left: 25px;
+	margin-left: 15px;
 }
 
 .current-issues p span,
@@ -22,8 +23,10 @@
 }
 
 .current-issues .close-issue {
-	position: absolute;
-    top: 0;
-    right: 0;
-    color: #ada5a5;
+    text-align: center;
+    margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	right: 0;
+	color: #ada5a5;
 }

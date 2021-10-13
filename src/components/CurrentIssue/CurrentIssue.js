@@ -5,7 +5,8 @@ const CurrentIssue = () => {
 	return (
 		<div className='current-issues'>
 			<div className='indv-issue'>
-				<p className='close-issue'>Close Issue</p>
+				<p className='close-issue'><span>Close Issue</span></p>
+
 				<p>
 					Assigned <span>Username</span>
 				</p>
