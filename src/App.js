@@ -8,8 +8,8 @@ function App() {
 	const [addIssue, setAddIssue] = useState(false);
 	return (
 		<div className='App'>
-			<div>
-				<img src={logo} alt='logo' />
+			<div className='logo'>
+				<img className='logo' src={logo} alt='logo' />
 			</div>
 			<div className='grey-card-container'>
 				{addIssue ? <AddIssue /> : <CurrentIssue />}

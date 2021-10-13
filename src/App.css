@@ -2,6 +2,18 @@
 	text-align: center;
 }
 
+@media screen and (min-width: 280px) {
+	html {
+		max-width: 1366px;
+	}
+}
+
+@media (max-width: 1366px) {
+	html {
+		max-height: 100% !important;
+	}
+}
+
 body {
 	background: rgb(158, 158, 158);
 }
@@ -15,14 +27,34 @@ button {
 	cursor: pointer;
 }
 
+.logo {
+	float: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+@media screen and (min-width: 280px) {
+	.logo {
+		max-width: 270px;
+	}
+}
+
+@media (max-width: 320px) {
+	.logo {
+		max-height: 100% !important;
+	}
+}
+
 .grey-card-container {
 	background: #c1ece9;
 	margin-left: 10px;
 	margin-right: 10px;
-	max-height: 400px;
+	max-height: 350px;
 	overflow: hidden;
 	overflow-y: scroll;
-	max-width: 725;
+	max-width: 1366px;
 	padding: 40px 50px 30px;
 	border-radius: 5px;
 	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
@@ -41,7 +73,7 @@ button {
 	padding: 10px 10px;
 	font-size: 15px;
 	margin-top: 10px;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 }
 
 .active-button {
@@ -52,7 +84,7 @@ button {
 .view-selection-div {
 	display: flex;
 	justify-content: space-between;
-	margin: auto;
+	/* margin: auto; */
 	margin-top: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
