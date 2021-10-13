@@ -3,7 +3,7 @@ import "./App.css";
 import AddIssue from "./components/AddIssue/AddIssue";
 import CurrentIssue from "./components/CurrentIssue/CurrentIssue";
 function App() {
-	const [addIssue, setAddIssue] = useState(true);
+	const [addIssue, setAddIssue] = useState(false);
 	return (
 		<div className='App'>
 			<h1>Bug Tracker</h1>

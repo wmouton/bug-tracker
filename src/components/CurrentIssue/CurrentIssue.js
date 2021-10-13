@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./CurrentIssue.css";
 
 const CurrentIssue = () => {
 	return (
@@ -10,7 +11,16 @@ const CurrentIssue = () => {
 				<p>
 					Priority <span>High</span>
 				</p>
-				<p>Description</p>
+				<p className='description-text'>Description</p>
+				<p>
+					<span>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Minima, in voluptates porro, eligendi sint labore
+						aspernatur consequuntur totam hic, laborum deserunt
+						sapiente deleniti explicabo placeat modi. Expedita
+						obcaecati odit animi.
+					</span>
+				</p>
 			</div>
 		</div>
 	);
